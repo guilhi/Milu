@@ -41,7 +41,7 @@ document.querySelectorAll("a[data-link]").forEach(link => {
 
 // Manter estado ao usar o botão Voltar/Avançar do navegador
 window.addEventListener("popstate", e => {
-  const url = e.state?.url || "/Milu";
+  const url = e.state?.url || "/Milu/";
   navegar(url);
 });
 

@@ -12,42 +12,37 @@ body {
 header {
   background: linear-gradient(135deg, #000, #444);
   color: white;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 header h1 {
-  font-size: 2rem;
   margin-bottom: 0.5rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ccc;
 }
 
 /* ===== Perfil ===== */
 .perfil img {
   width: 250px;
-  height: auto;
   border-radius: 16px;
   margin: 1rem 0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .perfil p {
   max-width: 600px;
-  margin: 0 auto 1rem;
+  margin: 0 auto 2rem;
   line-height: 1.6;
-}
-
-/* ===== Botão ===== */
-.botao {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #000;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background 0.3s;
-}
-
-.botao:hover {
-  background-color: #333;
 }
 
 /* ===== Galeria ===== */
@@ -62,7 +57,6 @@ header h1 {
 
 .galeria img {
   width: 200px;
-  height: auto;
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
@@ -70,7 +64,7 @@ header h1 {
 
 .galeria img:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 /* ===== Rodapé ===== */

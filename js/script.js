@@ -3,7 +3,6 @@ const conteudo = document.getElementById("conteudo");
 // HTML da página inicial
 const inicioHTML = `
 <section class="perfil">
-  <img src="./imagens/milu1.jpeg" alt="Gata Milu no pedestal">
   <p>
     Milu é uma gata de pelagem preta e branca, dona de um olhar sereno e majestoso.
     Com sua elegância natural e personalidade encantadora, conquista todos que cruzam seu caminho.

@@ -23,7 +23,7 @@ const galeriaHTML = `
 
 // Função para trocar conteúdo sem recarregar
 function navegar(url) {
-  if (url === "/fotos") {
+  if (url === "/Milu/fotos") {
     conteudo.innerHTML = galeriaHTML;
   } else {
     conteudo.innerHTML = inicioHTML;
@@ -46,7 +46,7 @@ window.addEventListener("popstate", e => {
 });
 
 // Carregar página certa ao abrir diretamente
-if (window.location.pathname === "/fotos") {
+if (window.location.pathname === "/Milu/fotos") {
   conteudo.innerHTML = galeriaHTML;
 } else {
   conteudo.innerHTML = inicioHTML;

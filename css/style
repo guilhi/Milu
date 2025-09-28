@@ -1,0 +1,82 @@
+/* ===== Estilo Geral ===== */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #222;
+  text-align: center;
+}
+
+/* ===== Cabeçalho ===== */
+header {
+  background: linear-gradient(135deg, #000, #444);
+  color: white;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== Perfil ===== */
+.perfil img {
+  width: 250px;
+  height: auto;
+  border-radius: 16px;
+  margin: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.perfil p {
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  line-height: 1.6;
+}
+
+/* ===== Botão ===== */
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.botao:hover {
+  background-color: #333;
+}
+
+/* ===== Galeria ===== */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 2rem auto;
+  max-width: 1000px;
+}
+
+.galeria img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* ===== Rodapé ===== */
+footer {
+  background-color: #000;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}

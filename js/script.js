@@ -13,11 +13,11 @@ const inicioHTML = `
 // HTML da galeria
 const galeriaHTML = `
 <section class="galeria">
-  <img src="./imagens/milu1.jpeg" alt="Milu 1">
-  <img src="./imagens/milu2.jpeg" alt="Milu 2">
-  <img src="./imagens/milu3.jpeg" alt="Milu 3">
-  <img src="./imagens/milu4.jpeg" alt="Milu 4">
-  <img src="./imagens/milu5.jpeg" alt="Milu 5">
+  <img src="../imagens/milu1.jpeg" alt="Milu 1">
+  <img src="../imagens/milu2.jpeg" alt="Milu 2">
+  <img src="../imagens/milu3.jpeg" alt="Milu 3">
+  <img src="../imagens/milu4.jpeg" alt="Milu 4">
+  <img src="../imagens/milu5.jpeg" alt="Milu 5">
 </section>
 `;
 
@@ -41,7 +41,7 @@ document.querySelectorAll("a[data-link]").forEach(link => {
 
 // Manter estado ao usar o botão Voltar/Avançar do navegador
 window.addEventListener("popstate", e => {
-  const url = e.state?.url || "/milu";
+  const url = e.state?.url || "/Milu";
   navegar(url);
 });
 
